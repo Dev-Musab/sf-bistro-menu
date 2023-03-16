@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.sample_users = exports.sample_tags = exports.sample_foods = void 0;
 exports.sample_foods = [
     {
@@ -11,7 +11,7 @@ exports.sample_foods = [
         origins: ['Westrn'],
         stars: 4.5,
         imageUrl: 'assets/food-1.jpg',
-        tags: ['NOODLES']
+        tags: ['NOODLES'],
     },
     {
         id: '2',
@@ -22,7 +22,7 @@ exports.sample_foods = [
         origins: ['Westrn'],
         stars: 3.9,
         imageUrl: 'assets/food-2.jpg',
-        tags: ['NOODLES']
+        tags: ['NOODLES'],
     },
     {
         id: '3',
@@ -33,7 +33,7 @@ exports.sample_foods = [
         origins: ['Westrn'],
         stars: 3.1,
         imageUrl: 'assets/food-3.jpg',
-        tags: ['NOODLES']
+        tags: ['NOODLES'],
     },
     {
         id: '4',
@@ -44,7 +44,7 @@ exports.sample_foods = [
         origins: ['Westrn'],
         stars: 3.9,
         imageUrl: 'assets/food-4.jpg',
-        tags: ['NOODLES']
+        tags: ['NOODLES'],
     },
     {
         id: '5',
@@ -55,7 +55,7 @@ exports.sample_foods = [
         origins: ['KOREAN'],
         stars: 4.9,
         imageUrl: 'assets/food-5.jpg',
-        tags: ['KOREAN PORK']
+        tags: ['KOREAN PORK'],
     },
     {
         id: '6',
@@ -66,7 +66,7 @@ exports.sample_foods = [
         origins: ['KOREAN'],
         stars: 4.2,
         imageUrl: 'assets/food-6.jpg',
-        tags: ['KOREAN PORK']
+        tags: ['KOREAN PORK'],
     },
     {
         id: '7',
@@ -77,7 +77,7 @@ exports.sample_foods = [
         origins: ['KOREAN'],
         stars: 4.7,
         imageUrl: 'assets/food-7.jpg',
-        tags: ['KOREAN PORK']
+        tags: ['KOREAN PORK'],
     },
     {
         id: '8',
@@ -88,7 +88,7 @@ exports.sample_foods = [
         origins: ['KOREAN'],
         stars: 3.9,
         imageUrl: 'assets/food-8.jpg',
-        tags: ['KOREAN PORK']
+        tags: ['KOREAN PORK'],
     },
     {
         id: '9',
@@ -99,7 +99,7 @@ exports.sample_foods = [
         origins: ['Fish/Shrimp', 'softdrinks'],
         stars: 4.1,
         imageUrl: 'assets/food-9.jpg',
-        tags: ['CHINESE']
+        tags: ['CHINESE'],
     },
     {
         id: '10',
@@ -110,7 +110,7 @@ exports.sample_foods = [
         origins: ['softdrinks'],
         stars: 4.5,
         imageUrl: 'assets/food-10.jpg',
-        tags: ['CHINESE']
+        tags: ['CHINESE'],
     },
     {
         id: '11',
@@ -121,7 +121,7 @@ exports.sample_foods = [
         origins: ['Fish/Shrimp'],
         stars: 4.8,
         imageUrl: 'assets/food-11.jpg',
-        tags: ['CHINESE']
+        tags: ['CHINESE'],
     },
     {
         id: '12',
@@ -132,7 +132,7 @@ exports.sample_foods = [
         origins: ['with rice', 'softdrinks'],
         stars: 4.2,
         imageUrl: 'assets/food-12.jpg',
-        tags: ['MAIN COURSE']
+        tags: ['MAIN COURSE'],
     },
     {
         id: '13',
@@ -143,7 +143,7 @@ exports.sample_foods = [
         origins: ['Prawns', 'calamary', 'hammour', 'softdrinks'],
         stars: 4.8,
         imageUrl: 'assets/food-13.jpg',
-        tags: ['MAIN COURSE']
+        tags: ['MAIN COURSE'],
     },
     {
         id: '14',
@@ -154,7 +154,7 @@ exports.sample_foods = [
         origins: ['Noodles', 'softdrinks'],
         stars: 4.5,
         imageUrl: 'assets/food-14.jpg',
-        tags: ['MAIN COURSE']
+        tags: ['MAIN COURSE'],
     },
     {
         id: '15',
@@ -165,7 +165,7 @@ exports.sample_foods = [
         origins: ['rice', 'softdrinks'],
         stars: 3.9,
         imageUrl: 'assets/food-15.jpg',
-        tags: ['MAIN COURSE']
+        tags: ['MAIN COURSE'],
     },
     {
         id: '16',
@@ -176,7 +176,7 @@ exports.sample_foods = [
         origins: ['rice', 'softdrinks'],
         stars: 3.9,
         imageUrl: 'assets/food-16.jpg',
-        tags: ['MAIN COURSE']
+        tags: ['MAIN COURSE'],
     },
     {
         id: '17',
@@ -187,7 +187,7 @@ exports.sample_foods = [
         origins: ['roasted potato', 'softdrinks'],
         stars: 4.7,
         imageUrl: 'assets/food-17.jpg',
-        tags: ['MAIN COURSE']
+        tags: ['MAIN COURSE'],
     },
 ];
 exports.sample_tags = [
@@ -203,13 +203,13 @@ exports.sample_users = [
         email: "john@gmail.com",
         password: "12345",
         address: "Toronto On",
-        isAdmin: true
+        isAdmin: true,
     },
     {
         name: "Jane Doe",
         email: "Jane@gmail.com",
         password: "12345",
         address: "Shanghai",
-        isAdmin: false
+        isAdmin: false,
     },
 ];
