@@ -22,6 +22,12 @@ app.use((0, cors_1.default)({
 app.use("/api/foods", food_router_1.default);
 app.use("/api/users", user_router_1.default);
 app.use("/api/orders", order_router_1.default);
+app.use(function (req, res, next) {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Headers", "Origin, X-requested-With, Content-Type, Accept, Authorization");
+    res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, PUT, DELETE, OPTIONS, PUT");
+    next();
+});
 app.use(express_1.default.static('public'));
 app.get('*', function (req, res) {
     res.sendFile(path_1.default.join(__dirname, 'public', 'index.html'));
